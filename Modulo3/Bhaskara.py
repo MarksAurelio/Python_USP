@@ -34,5 +34,5 @@ def formula_de_bhaskara(a, b, c):
     else:
         return 'esta equação não possui raízes reais'
 
-numero = numero_fornecido_usuario ('A'), numero_fornecido_usuario ('B'), numero_fornecido_usuario ('C')
+numero = numero_fornecido_usuario ('a'), numero_fornecido_usuario ('b'), numero_fornecido_usuario ('c')
 print(formula_de_bhaskara(numero[0], numero[1], numero[2]))

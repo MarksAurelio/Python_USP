@@ -21,10 +21,10 @@ def numero_fornecido_usuario(label):
     return int(input('Número {}: '.format(label)))
 
 def formula_de_bhaskara(a, b, c):
-    delta = (b ** 2) - (4 * a * c)
+    delta = (b**2)-(4*a*c)
 
     if delta >= 0:
-        raizes_do_calculo = (-b + math.sqrt(delta)) / (2 * a), (-b - math.sqrt(delta)) / (2 * a)
+        raizes_do_calculo = (-b+ math.sqrt(delta)) / (2*a), (-b- math.sqrt(delta)) / (2*a)
         classificacao_raizes = tuple(sorted(raizes_do_calculo))
 
         if delta > 0:
@@ -32,7 +32,7 @@ def formula_de_bhaskara(a, b, c):
         else:
             return 'a raiz desta equação é {}'.format(raizes_do_calculo[0])
     else:
-        'essa equação não possui raízes reais'
+        return 'esta equação não possui raízes reais'
 
 numero = numero_fornecido_usuario ('A'), numero_fornecido_usuario ('B'), numero_fornecido_usuario ('C')
 print(formula_de_bhaskara(numero[0], numero[1], numero[2]))

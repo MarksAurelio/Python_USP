@@ -5,4 +5,3 @@ if tempoDeJogo <= 90:
 else:
     print("Poxa meu tempo tá no fim...")
     print("Ok! Fazer o que né!")
-   

@@ -6,3 +6,4 @@ area = ladoquadrado * ladoquadrado
 
 print("área: ", area)
 print("perímetro: ", perimetro) 
+
